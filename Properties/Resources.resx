@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="de_UI_SettingsPage_labelBannerText_Text" xml:space="preserve">
+    <value>Die Online-Waage</value>
+  </data>
+  <data name="es_UI_SettingsPage_labelBannerText_Text" xml:space="preserve">
+    <value>La báscula conectada a Internet</value>
+  </data>
+  <data name="fr_UI_SettingsPage_labelBannerText_Text" xml:space="preserve">
+    <value>La balance connectée à internet</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="horizontal_banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horizontal-banner.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_12_MenuCascadeArrowDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image_12_MenuCascadeArrowDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it_UI_SettingsPage_labelBannerText_Text" xml:space="preserve">
+    <value>La bilancia connessa ad Internet</value>
+  </data>
+  <data name="MultipleEntriesUpdateStyles_Earliest_Text" xml:space="preserve">
+    <value>Import Earliest</value>
+  </data>
+  <data name="MultipleEntriesUpdateStyles_Highest_Text" xml:space="preserve">
+    <value>Import Highest</value>
+  </data>
+  <data name="MultipleEntriesUpdateStyles_Latest_Text" xml:space="preserve">
+    <value>Import Latest</value>
+  </data>
+  <data name="MultipleEntriesUpdateStyles_Lowest_Text" xml:space="preserve">
+    <value>Import Lowest</value>
+  </data>
+  <data name="nl_UI_SettingsPage_labelBannerText_Text" xml:space="preserve">
+    <value>De Withings weegschaal voor</value>
+  </data>
+  <data name="progress_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progress_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress-9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_watermark_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scale-watermark-large.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_AccountInfo_passwordLabel_Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_AccountInfo_Title" xml:space="preserve">
+    <value>Enter account information</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_AccountInfo_topTextLabel_Text" xml:space="preserve">
+    <value>Enter the account (email) and password you use to connect to the my.withings.com website. The password you enter below will be used only once to establish a connection and will not be stored on this computer.</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_ImportHistory_Complete_Text" xml:space="preserve">
+    <value>Retrieval complete. Click "Finish" to import history into your logbook.</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_ImportHistory_Failed_Text" xml:space="preserve">
+    <value>Retrieval failed.</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_ImportHistory_RetrievedNone_Text" xml:space="preserve">
+    <value>No measurements.</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_ImportHistory_RetrievedRange_Text" xml:space="preserve">
+    <value>[ {1} to {2} ] Number of measurements: {0}.</value>
+    <comment>{0} measurement count, {1} start date, {2} end date</comment>
+  </data>
+  <data name="UI_ConfigureWizard_Page_ImportHistory_RetrievedSingle_Text" xml:space="preserve">
+    <value>[ {0} ] One measurement.</value>
+    <comment>{0} date</comment>
+  </data>
+  <data name="UI_ConfigureWizard_Page_ImportHistory_Title" xml:space="preserve">
+    <value>Importing history</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_ImportHistory_topTextLabel_Text" xml:space="preserve">
+    <value>Please wait while your history is retrieved.</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_ImportSettings_Title" xml:space="preserve">
+    <value>Review sync settings</value>
+  </data>
+  <data name="UI_ConfigureWizard_Page_SelectUser_Title" xml:space="preserve">
+    <value>Select user profile</value>
+  </data>
+  <data name="UI_ConfigureWizard_Title" xml:space="preserve">
+    <value>Withings Body Scale Sync Configuration Wizard</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_accountLabel_Text" xml:space="preserve">
+    <value>Account:</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_ambiguousLabel_Text" xml:space="preserve">
+    <value>Import ambiguous entries:</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_Deactivate_Text" xml:space="preserve">
+    <value>Are you sure you want to deactivate the Withings Body Scale sync?</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_Deactivate_Title" xml:space="preserve">
+    <value>Deactivate Sync</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_deactivateButton_Text" xml:space="preserve">
+    <value>Deactivate</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_heightLabel_Text" xml:space="preserve">
+    <value>Import height entries:</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_lastConnectionLabel_Text" xml:space="preserve">
+    <value>Details of Last Connection</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_manualLabel_Text" xml:space="preserve">
+    <value>Import manual entries:</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_multipleEntriesLabel_Text" xml:space="preserve">
+    <value>For multiple entries on one day:</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_optionsLabel_Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_reconfigureButton_Text" xml:space="preserve">
+    <value>Reconfigure...</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_updateBMILabel_Text" xml:space="preserve">
+    <value>Update BMI:</value>
+  </data>
+  <data name="UI_LogbookSettingsPanel_userLabel_Text" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="UI_SettingsPage_configureButton_Text" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="UI_SettingsPage_labelBannerText_Text" xml:space="preserve">
+    <value>The Internet connected Body Scale</value>
+  </data>
+<data name='de_MultipleEntriesUpdateStyles_Earliest_Text' xml:space='preserve'><value>Importieren Ältester</value></data>
+<data name='de_MultipleEntriesUpdateStyles_Highest_Text' xml:space='preserve'><value>Importieren Höchster</value></data>
+<data name='de_MultipleEntriesUpdateStyles_Latest_Text' xml:space='preserve'><value>Importieren Letzter</value></data>
+<data name='de_MultipleEntriesUpdateStyles_Lowest_Text' xml:space='preserve'><value>Importieren Niedrigster</value></data>
+<data name='de_UI_ConfigureWizard_Page_AccountInfo_passwordLabel_Text' xml:space='preserve'><value>Kodeord:</value></data>
+<data name='de_UI_ConfigureWizard_Page_AccountInfo_Title' xml:space='preserve'><value>Geben Sie Kontoinformationen ein</value></data>
+<data name='de_UI_ConfigureWizard_Page_AccountInfo_topTextLabel_Text' xml:space='preserve'><value>Geben Sie das Konto (E-Mail) und Passwort ein, welches Sie fuer die my.withings.com Webseite verwenden. Das Passwort, welches Sie unten eingeben wird nur einmal verwendet um eine Verbindung herzustellen, es wird nicht auf diesem Computer gespeichert werden.</value></data>
+<data name='de_UI_ConfigureWizard_Page_ImportHistory_Complete_Text' xml:space='preserve'><value>Abruf abgeschlossen. Klicken Sie auf "Fertigstellen", um die Historie ins Logbuch zu importieren.</value></data>
+<data name='de_UI_ConfigureWizard_Page_ImportHistory_Failed_Text' xml:space='preserve'><value>Abruf fehlgeschlagen.</value></data>
+<data name='de_UI_ConfigureWizard_Page_ImportHistory_RetrievedNone_Text' xml:space='preserve'><value>Keine Messwerte.</value></data>
+<data name='de_UI_ConfigureWizard_Page_ImportHistory_RetrievedRange_Text' xml:space='preserve'><value>[ {1} bis {2} ] Anzahl der Messwerte: {0}.</value></data>
+<data name='de_UI_ConfigureWizard_Page_ImportHistory_RetrievedSingle_Text' xml:space='preserve'><value>[ {0} ] Ein Messwert.</value></data>
+<data name='de_UI_ConfigureWizard_Page_ImportHistory_Title' xml:space='preserve'><value>Importieren Historie</value></data>
+<data name='de_UI_ConfigureWizard_Page_ImportHistory_topTextLabel_Text' xml:space='preserve'><value>Bitte warten Sie während ihre Historie abgerufen wird.</value></data>
+<data name='de_UI_ConfigureWizard_Page_ImportSettings_Title' xml:space='preserve'><value>Überprüfen Synchronisationseinstellungen</value></data>
+<data name='de_UI_ConfigureWizard_Page_SelectUser_Title' xml:space='preserve'><value>Wählen Sie Benutzerprofil</value></data>
+<data name='de_UI_ConfigureWizard_Title' xml:space='preserve'><value>Withings Körper Waage Sync-Konfigurations-Assistent</value></data>
+<data name='de_UI_LogbookSettingsPanel_accountLabel_Text' xml:space='preserve'><value>Konto:</value></data>
+<data name='de_UI_LogbookSettingsPanel_ambiguousLabel_Text' xml:space='preserve'><value>Import mehrdeutiger Messwerte:</value></data>
+<data name='de_UI_LogbookSettingsPanel_Deactivate_Text' xml:space='preserve'><value>Sind Sie sicher, dass Sie die Withings Körper Waage Sync deaktivieren wollen?</value></data>
+<data name='de_UI_LogbookSettingsPanel_Deactivate_Title' xml:space='preserve'><value>Deaktivieren Sync</value></data>
+<data name='de_UI_LogbookSettingsPanel_deactivateButton_Text' xml:space='preserve'><value>Deaktivieren</value></data>
+<data name='de_UI_LogbookSettingsPanel_heightLabel_Text' xml:space='preserve'><value>Import Größe Einträge:</value></data>
+<data name='de_UI_LogbookSettingsPanel_lastConnectionLabel_Text' xml:space='preserve'><value>Details der letzten Verbindung</value></data>
+<data name='de_UI_LogbookSettingsPanel_manualLabel_Text' xml:space='preserve'><value>Import Manueller Einträge:</value></data>
+<data name='de_UI_LogbookSettingsPanel_multipleEntriesLabel_Text' xml:space='preserve'><value>Für mehrere Einträge an einem Tag</value></data>
+<data name='de_UI_LogbookSettingsPanel_optionsLabel_Text' xml:space='preserve'><value>Indstillinger</value></data>
+<data name='de_UI_LogbookSettingsPanel_reconfigureButton_Text' xml:space='preserve'><value>Rekonfigurieren...</value></data>
+<data name='de_UI_LogbookSettingsPanel_updateBMILabel_Text' xml:space='preserve'><value>Aktualisieren BMI:</value></data>
+<data name='de_UI_LogbookSettingsPanel_userLabel_Text' xml:space='preserve'><value>Benutzer:</value></data>
+<data name='de_UI_SettingsPage_configureButton_Text' xml:space='preserve'><value>Konfigurieren...</value></data>
+<data name='de_UI_SettingsPage_labelBannerText_Text' xml:space='preserve'><value>Die Online-Waage</value></data>
+<data name='fr_MultipleEntriesUpdateStyles_Earliest_Text' xml:space='preserve'><value>Importer la première</value></data>
+<data name='fr_MultipleEntriesUpdateStyles_Highest_Text' xml:space='preserve'><value>Importer la plus grande</value></data>
+<data name='fr_MultipleEntriesUpdateStyles_Latest_Text' xml:space='preserve'><value>Importer la dernière</value></data>
+<data name='fr_MultipleEntriesUpdateStyles_Lowest_Text' xml:space='preserve'><value>Importer la plus petite</value></data>
+<data name='fr_UI_ConfigureWizard_Page_AccountInfo_passwordLabel_Text' xml:space='preserve'><value>Mot de passe:</value></data>
+<data name='fr_UI_ConfigureWizard_Page_AccountInfo_Title' xml:space='preserve'><value>Enter vos identifiants de compte</value></data>
+<data name='fr_UI_ConfigureWizard_Page_AccountInfo_topTextLabel_Text' xml:space='preserve'><value>Entrez le compte (email) et le mot de passe utilisés pour vous connecter à my.withings.com. Votre mot de passe ne sera utilisé qu'une seule fois pour établir la connexion et ne sera pas stocké.</value></data>
+<data name='fr_UI_ConfigureWizard_Page_ImportHistory_Complete_Text' xml:space='preserve'><value>Rapatriement des mesures terminé. Clickez sur "Terminer" pour importer l'historique de vos mesures dans votre logbook.</value></data>
+<data name='fr_UI_ConfigureWizard_Page_ImportHistory_Failed_Text' xml:space='preserve'><value>Le rapatriement des mesures a échoué.</value></data>
+<data name='fr_UI_ConfigureWizard_Page_ImportHistory_RetrievedNone_Text' xml:space='preserve'><value>Pas de mesures</value></data>
+<data name='fr_UI_ConfigureWizard_Page_ImportHistory_RetrievedRange_Text' xml:space='preserve'><value>[ {1} to {2} ] Nombre de mesures : {0}.</value></data>
+<data name='fr_UI_ConfigureWizard_Page_ImportHistory_RetrievedSingle_Text' xml:space='preserve'><value>[ {0} ] Une mesure</value></data>
+<data name='fr_UI_ConfigureWizard_Page_ImportHistory_Title' xml:space='preserve'><value>Import de l'historique en cours</value></data>
+<data name='fr_UI_ConfigureWizard_Page_ImportHistory_topTextLabel_Text' xml:space='preserve'><value>Veuillez patienter pendant la rapatriement de votre historique de mesures.</value></data>
+<data name='fr_UI_ConfigureWizard_Page_ImportSettings_Title' xml:space='preserve'><value>Configuration des paramètres de synchronisation</value></data>
+<data name='fr_UI_ConfigureWizard_Page_SelectUser_Title' xml:space='preserve'><value>Sélectionnez le profil utilisateur</value></data>
+<data name='fr_UI_ConfigureWizard_Title' xml:space='preserve'><value>Configuration de la synchronisation de la Balance Connectée Withings</value></data>
+<data name='fr_UI_LogbookSettingsPanel_accountLabel_Text' xml:space='preserve'><value>Compte :</value></data>
+<data name='fr_UI_LogbookSettingsPanel_ambiguousLabel_Text' xml:space='preserve'><value>Importer les pesées ambigües</value></data>
+<data name='fr_UI_LogbookSettingsPanel_Deactivate_Text' xml:space='preserve'><value>Etes-vous sûr de vouloir désactiver la synchronisation de la Balance Connectée Withings</value></data>
+<data name='fr_UI_LogbookSettingsPanel_Deactivate_Title' xml:space='preserve'><value>Désactiver la synchronisation</value></data>
+<data name='fr_UI_LogbookSettingsPanel_deactivateButton_Text' xml:space='preserve'><value>Désactiver</value></data>
+<data name='fr_UI_LogbookSettingsPanel_heightLabel_Text' xml:space='preserve'><value>Importer les mesures de taille</value></data>
+<data name='fr_UI_LogbookSettingsPanel_lastConnectionLabel_Text' xml:space='preserve'><value>Détails de la dernière connexion</value></data>
+<data name='fr_UI_LogbookSettingsPanel_manualLabel_Text' xml:space='preserve'><value>Importer les mesures manuelles</value></data>
+<data name='fr_UI_LogbookSettingsPanel_multipleEntriesLabel_Text' xml:space='preserve'><value>Si plusieurs entrée dans la même journée :</value></data>
+<data name='fr_UI_LogbookSettingsPanel_optionsLabel_Text' xml:space='preserve'><value>Options </value></data>
+<data name='fr_UI_LogbookSettingsPanel_reconfigureButton_Text' xml:space='preserve'><value>Reconfigurer</value></data>
+<data name='fr_UI_LogbookSettingsPanel_updateBMILabel_Text' xml:space='preserve'><value>Mettre a jour l'IMC :</value></data>
+<data name='fr_UI_LogbookSettingsPanel_userLabel_Text' xml:space='preserve'><value>Utilisateur :</value></data>
+<data name='fr_UI_SettingsPage_configureButton_Text' xml:space='preserve'><value>Configuration en cours…</value></data>
+<data name='fr_UI_SettingsPage_labelBannerText_Text' xml:space='preserve'><value>La Balance Connectée Withings</value></data>
+<data name='es_MultipleEntriesUpdateStyles_Earliest_Text' xml:space='preserve'><value>Guardar la primera</value></data>
+<data name='es_MultipleEntriesUpdateStyles_Highest_Text' xml:space='preserve'><value>Guardar la mayor</value></data>
+<data name='es_MultipleEntriesUpdateStyles_Latest_Text' xml:space='preserve'><value>Guardar la última</value></data>
+<data name='es_MultipleEntriesUpdateStyles_Lowest_Text' xml:space='preserve'><value>Guardar la más pequeña</value></data>
+<data name='es_UI_ConfigureWizard_Page_AccountInfo_passwordLabel_Text' xml:space='preserve'><value>Contraseña:</value></data>
+<data name='es_UI_ConfigureWizard_Page_AccountInfo_Title' xml:space='preserve'><value>Introduzca sus identificadores de cuenta</value></data>
+<data name='es_UI_ConfigureWizard_Page_AccountInfo_topTextLabel_Text' xml:space='preserve'><value>Introduzca la cuenta (correo electrónico) y la contraseña utilizados para conectarse con my.withings.com. La contraseña solo sirve para realizar la conexión una vez y no quedará guardada.</value></data>
+<data name='es_UI_ConfigureWizard_Page_ImportHistory_Complete_Text' xml:space='preserve'><value>Recuperación de las mediciones finalizada. Haz clic en "Finalizar" para guardar el historial de tus mediciones en tu logbook.</value></data>
+<data name='es_UI_ConfigureWizard_Page_ImportHistory_Failed_Text' xml:space='preserve'><value>No se ha conseguido recuperar las mediciones.</value></data>
+<data name='es_UI_ConfigureWizard_Page_ImportHistory_RetrievedNone_Text' xml:space='preserve'><value>No hay mediciones</value></data>
+<data name='es_UI_ConfigureWizard_Page_ImportHistory_RetrievedRange_Text' xml:space='preserve'><value>[ {1} to {2} ] ´Cantidad de mediciones: {0}.</value></data>
+<data name='es_UI_ConfigureWizard_Page_ImportHistory_RetrievedSingle_Text' xml:space='preserve'><value>[ {0} ] Una medición</value></data>
+<data name='es_UI_ConfigureWizard_Page_ImportHistory_Title' xml:space='preserve'><value>Guardando el historial</value></data>
+<data name='es_UI_ConfigureWizard_Page_ImportHistory_topTextLabel_Text' xml:space='preserve'><value>Espera mientras se recupera el historial de mediciones.</value></data>
+<data name='es_UI_ConfigureWizard_Page_ImportSettings_Title' xml:space='preserve'><value>Configuración de los parámetros de sincronización</value></data>
+<data name='es_UI_ConfigureWizard_Page_SelectUser_Title' xml:space='preserve'><value>Seleccionar perfil de usuario</value></data>
+<data name='es_UI_ConfigureWizard_Title' xml:space='preserve'><value>Configuración de la sincronización de la báscula conectada Withings</value></data>
+<data name='es_UI_LogbookSettingsPanel_accountLabel_Text' xml:space='preserve'><value>Cuenta:</value></data>
+<data name='es_UI_LogbookSettingsPanel_ambiguousLabel_Text' xml:space='preserve'><value>Guardar las mediciones dudosas</value></data>
+<data name='es_UI_LogbookSettingsPanel_Deactivate_Text' xml:space='preserve'><value>¿Estás seguro de que quieres desactivar la sincronización de la báscula conectada Withings</value></data>
+<data name='es_UI_LogbookSettingsPanel_Deactivate_Title' xml:space='preserve'><value>Desactivar la sincronización</value></data>
+<data name='es_UI_LogbookSettingsPanel_deactivateButton_Text' xml:space='preserve'><value>Desactivar</value></data>
+<data name='es_UI_LogbookSettingsPanel_heightLabel_Text' xml:space='preserve'><value>Guardar las mediciones de estatura</value></data>
+<data name='es_UI_LogbookSettingsPanel_lastConnectionLabel_Text' xml:space='preserve'><value>Detalles de la última conexión</value></data>
+<data name='es_UI_LogbookSettingsPanel_manualLabel_Text' xml:space='preserve'><value>Guardar las mediciones manualmente</value></data>
+<data name='es_UI_LogbookSettingsPanel_multipleEntriesLabel_Text' xml:space='preserve'><value>Si hay varias entradas en un mismo día:</value></data>
+<data name='es_UI_LogbookSettingsPanel_optionsLabel_Text' xml:space='preserve'><value>Opciones </value></data>
+<data name='es_UI_LogbookSettingsPanel_reconfigureButton_Text' xml:space='preserve'><value>Reconfigurar</value></data>
+<data name='es_UI_LogbookSettingsPanel_updateBMILabel_Text' xml:space='preserve'><value>Actualizar el IMC:</value></data>
+<data name='es_UI_LogbookSettingsPanel_userLabel_Text' xml:space='preserve'><value>Usuario:</value></data>
+<data name='es_UI_SettingsPage_configureButton_Text' xml:space='preserve'><value>Configuración en curso...</value></data>
+<data name='es_UI_SettingsPage_labelBannerText_Text' xml:space='preserve'><value>La Báscula Conectada Withings</value></data>
+</root>
