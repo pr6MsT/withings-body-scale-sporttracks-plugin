@@ -1,0 +1,160 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{713D34D0-47DF-46B8-9BDF-0E7EA8897D62}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WithingsBodyScale</RootNamespace>
+    <AssemblyName>WithingsBodyScale</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Data, Version=3.0.3839.34409, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Zone Five Software\SportTracks 3\Common.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Visuals, Version=3.0.3839.34414, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Zone Five Software\SportTracks 3\Common.Visuals.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigureWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureWizard.Designer.cs">
+      <DependentUpon>ConfigureWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureWizard_Page_AccountInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConfigureWizard_Page_AccountInfo.Designer.cs">
+      <DependentUpon>ConfigureWizard_Page_AccountInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionUtils.cs" />
+    <Compile Include="ControlUtils.cs" />
+    <Compile Include="ConfigureWizard_Page_SelectUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConfigureWizard_Page_SelectUser.Designer.cs">
+      <DependentUpon>ConfigureWizard_Page_SelectUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureWizard_Page_ImportHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConfigureWizard_Page_ImportHistory.Designer.cs">
+      <DependentUpon>ConfigureWizard_Page_ImportHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureWizard_Page_ImportSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConfigureWizard_Page_ImportSettings.Designer.cs">
+      <DependentUpon>ConfigureWizard_Page_ImportSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtendSettingsPages.cs" />
+    <Compile Include="LogbookSettingsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LogbookSettingsPanel.Designer.cs">
+      <DependentUpon>LogbookSettingsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeasurementImporter.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="LogbookSettings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceLookup.cs" />
+    <Compile Include="SettingsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsPage.Designer.cs">
+      <DependentUpon>SettingsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Synchronizer.cs" />
+    <Compile Include="WithingsWebServiceProxy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horizontal-banner.png" />
+    <Content Include="plugin.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\progress-11.png" />
+    <None Include="Resources\progress-10.png" />
+    <None Include="Resources\progress-9.png" />
+    <None Include="Resources\progress-12.png" />
+    <None Include="Resources\progress-7.png" />
+    <None Include="Resources\progress-6.png" />
+    <None Include="Resources\progress-5.png" />
+    <None Include="Resources\progress-4.png" />
+    <None Include="Resources\progress-3.png" />
+    <None Include="Resources\progress-2.png" />
+    <None Include="Resources\progress-1.png" />
+    <None Include="Resources\progress-8.png" />
+    <None Include="Resources\scale-watermark-large.png" />
+    <None Include="Resources\Image_12_MenuCascadeArrowDown.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>cd "$(ProjectDir)Installer"
+Build.bat</PostBuildEvent>
+  </PropertyGroup>
+</Project>
