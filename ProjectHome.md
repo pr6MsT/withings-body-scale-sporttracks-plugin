@@ -1,0 +1,1 @@
+A plugin to synch a users withings data from the withings web service app with SportTracks. Works with SportTracks 3.0. Written in C#.
